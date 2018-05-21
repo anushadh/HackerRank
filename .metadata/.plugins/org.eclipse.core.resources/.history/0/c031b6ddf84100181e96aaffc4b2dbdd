@@ -1,0 +1,21 @@
+package misc;
+
+import java.util.HashMap;
+
+public class StringMaxChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String string = "anusha";
+		HashMap<Character, Integer> hashmap = new HashMap();
+		for(int i = 0; i < string.length(); i++) {
+			char ch = string.charAt(i);
+			if(hashmap.containsKey()) {
+				hashmap.put(string.charAt(i), value)
+			}
+		}
+
+	}
+
+}

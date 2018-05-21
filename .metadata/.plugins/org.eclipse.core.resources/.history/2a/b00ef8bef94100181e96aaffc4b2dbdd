@@ -1,0 +1,32 @@
+package misc;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class StringMaxChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int maxCount = 0;
+		String string = "anusha";
+		HashMap<Character, Integer> hashmap = new HashMap<Character, Integer>();
+		for(int i = 0; i < string.length(); i++) {
+			char ch = string.charAt(i);
+			if(hashmap.containsKey(ch)) {
+				hashmap.put(ch, hashmap.get(ch)+1);
+			} else {
+				hashmap.put(ch, 1);
+			}
+			if(hashmap.get(ch) > maxCount) {
+				maxCount = hashmap.get(ch);
+			}
+		}
+		
+		for(Map.Entry<Character, Integer> entry : hashmap.entrySet()) {
+			if(entry.getValue() == maxCount) {
+				
+			}
+		}
+	}
+
+}

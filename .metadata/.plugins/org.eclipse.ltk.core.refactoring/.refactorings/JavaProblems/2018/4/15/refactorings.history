@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;tuple.Tuple.java&apos; to &apos;Main.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaProblems&apos;&#x0D;&#x0A;- Original element: &apos;tuple.Tuple.java&apos;&#x0D;&#x0A;- Renamed element: &apos;tuple.Main.java&apos;" description="Rename compilation unit &apos;Tuple.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;tuple{Tuple.java" name="Main.java" references="false" stamp="1523721173739" version="1.0"/>
+</session>

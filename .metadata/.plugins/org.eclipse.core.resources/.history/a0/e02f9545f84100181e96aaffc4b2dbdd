@@ -1,0 +1,12 @@
+package misc;
+
+public class StringMaxChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String string = "anusha";
+
+	}
+
+}
